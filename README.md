@@ -104,7 +104,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Smart Contract
 
-The smart contract for this project is written in Solidity and deployed on the Avalanche Fuji Testnet. It includes the following functionality:
+The smart contract for this project is written in Solidity and deployed on the Avalanche Fuji Testnet.
+Contract Address = 0xd270ad6eE43BaE57e2E8936a665d570ED691fb53
+It includes the following functionality:
 
 - Register an organization
 - Assign carbon credits to an organization
