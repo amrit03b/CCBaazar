@@ -1,7 +1,7 @@
 
 # Carbon Baazar
 
-This project is a decentralized platform where companies can buy and sell carbon credits. The smart contract for this project is written in Solidity and deployed on the Avalanche Fuji Testnet. The front-end is built using React.js, Node.js, and Thirdweb.
+This project is a decentralized platform where companies can buy and sell carbon credits. The smart contract for this project is written in Solidity and deployed on the Avalanche Fuji Testnet. The front-end is built using React.js, Node.js, and Thirdweb. Contract Address = 0xd270ad6eE43BaE57e2E8936a665d570ED691fb53.
 
 ## Table of Contents
 
