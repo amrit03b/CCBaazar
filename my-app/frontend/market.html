@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Credit Marketplace</title>
+    <link rel="stylesheet" href="css/stylemarket.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Carbon Credit Marketplace</h1>
+        </header>
+        <main>
+            <section class="marketplace">
+                <h2>Available Carbon Credits</h2>
+                <ul id="listing-list"></ul>
+            </section>
+            <section class="buy-section">
+                <h2>Buy Carbon Credits</h2>
+                <form id="buy-form">
+                    <label for="listing-id">Listing ID:</label>
+                    <input type="text" id="listing-id" name="listing-id" required>
+
+                    <label for="buyer-wallet">Wallet Address:</label>
+                    <input type="text" id="buyer-wallet" name="buyer-wallet" required>
+
+                    <button type="submit">Buy</button>
+                </form>
+            </section>
+            <section class="sell-section">
+                <h2>Sell Carbon Credits</h2>
+                <form id="sell-form">
+                    <label for="sell-amount">Amount:</label>
+                    <input type="number" id="sell-amount" name="sell-amount" required>
+
+                    <label for="sell-price">Price per Credit:</label>
+                    <input type="number" id="sell-price" name="sell-price" required>
+
+                    <label for="seller-wallet">Wallet Address:</label>
+                    <input type="text" id="seller-wallet" name="seller-wallet" required>
+
+                    <button type="submit">Sell</button>
+                </form>
+            </section>
+            <section class="transactions">
+                <h2>Recent Transactions</h2>
+                <ul id="transaction-list"></ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Carbon Credit Marketplace</p>
+        </footer>
+    </div>
+    <script src="javascript/scriptmarket.js"></script>
+</body>
+</html>

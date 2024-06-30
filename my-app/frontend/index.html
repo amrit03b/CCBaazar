@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Carbon Bazaar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.wow:first-child {
+			visibility: hidden;
+		}
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="">Carbon<b style="color:#107305;">Bazaar</b></a>
+			</div>
+			<a href="javascript:void(0)" class="ham-burger">
+				<span></span>
+				<span></span>
+			</a>
+			<div class="nav">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="admin.html">Admin Panel</a></li>
+					<li><a href="organizations.html">Organization's Dashboard</a></li>
+					<li><a href="market.html">Marketplace</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="home wow flash" id="home">
+		<div class="container">
+			<h1 class="wow slideInLeft" data-wow-delay="1s">A <span>decentralized </span> platform for buying and selling carbon credits.
+			</h1>
+			<h1 class="wow slideInRight" data-wow-delay="1s">We are ready to make <span>an impact on Environment</span></h1>
+		</div>
+
+		<a href="#about" class="go-down">
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</a>
+
+
+	</section>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="content">
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="images/about1.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Admin Panel</h4>
+							<p>Regulatory bodies/auditors can add new organizations to the Carbon Baazar Marketplace where they can buy or sell Carbon Credits.</p>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="images/about2.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Carbon Credit Marketplace</h4>
+							<p>A Marketplace where organizations can sell their extra carbon credits and organizations that need extra CC can buy from here.</p>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="images/about3.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Organization's Dashboard</h4>
+							<p>The organizations can manage their transactions in their respective dashboard after their company is registered through the admin/auditor.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service" id="service">
+		<div class="container">
+			<div class="content">
+				<div class="text box wow slideInLeft">
+					<h2>Services</h2>
+					<p>Our project aims to create a cutting-edge carbon credit marketplace app, designed to facilitate the buying, selling, and management of carbon credits. Leveraging blockchain technology for transparency and security, the platform will enable users to offset their carbon footprints by purchasing credits from verified environmental projects. Users will have access to detailed project descriptions, impact assessments, and real-time transaction histories through an intuitive dashboard. By integrating secure payment gateways and cryptocurrency wallets, the app ensures seamless and efficient transactions. Additionally, advanced features such as a carbon footprint calculator, user reviews, and comprehensive support resources will empower individuals and businesses to contribute effectively to global sustainability efforts.
+					</p>
+					<a class="btn" href="market.html">Start Now </a>
+				</div>
+				<div class="accordian box wow slideInRight">
+					<div class="accordian-container active">
+						<div class="head">
+							<h4>Marketplace</h4>
+							<span class="fa fa-angle-down"></span>
+						</div>
+						<div class="body">
+							<p>A carbon credit marketplace is a platform for buying and selling carbon credits to offset emissions. It ensures 
+								transparency and security, promoting sustainability by supporting verified environmental projects..</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Admin Panel</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>Regulatory bodies/auditors can add new organizations to the Carbon Baazar 
+								Marketplace where they can buy or sell Carbon Credits.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Organization's Dashboard</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>The organizations can manage their transactions in 
+								their respective dashboard after their company is registered through the admin/auditor.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="box text wow slideInRight" style="width:300px; margin:0 auto;">
+			<h2><a style="color:#146e0a;">Get Connected with Carbon Baazar</a></h2>
+			<p class="title-p" style="color:#ffffff;">If you want to give any suggestions or have any queries regarding Carbon Bazaar then feel free to reach us.</p>
+			<div class="info">
+				<ul style="color:#ffffff;">
+					<li><span class="fa fa-map-marker" style="color:#ffffff;"></span><a
+							style="color:#ffffff;">Newtown</a></li>
+					<li><span class="fa fa-phone"></span>+91 825X293939</li>
+					<li><span class="fa fa-envelope"></span> info@CarbonBaazar.com</li>
+				</ul>
+			</div>
+
+			<div class="copy" style="color:#ffffff;">
+				Powered By &copy; Amrit, Jugantar & Ishita
+			</div>
+		</div>
+		</div>
+		</div>
+	</section>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+
+			$(".ham-burger, .nav ul li a").click(function () {
+
+				$(".nav").toggleClass("open")
+
+				$(".ham-burger").toggleClass("active");
+			})
+			$(".accordian-container").click(function () {
+				$(".accordian-container").children(".body").slideUp();
+				$(".accordian-container").removeClass("active")
+				$(".accordian-container").children(".head").children("span").removeClass("fa-angle-down").addClass("fa-angle-up")
+				$(this).children(".body").slideDown();
+				$(this).addClass("active")
+				$(this).children(".head").children("span").removeClass("fa-angle-up").addClass("fa-angle-down")
+			})
+
+			$(".nav ul li a, .go-down").click(function (event) {
+				if (this.hash !== "") {
+
+					event.preventDefault();
+
+					var hash = this.hash;
+
+					$('html,body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+						window.location.hash = hash;
+					});
+
+					$(".nav ul li a").removeClass("active")
+					$(this).addClass("active")
+				}
+			})
+		})
+
+	</script>
+	<script src="javascript/script1.js"></script>
+	<script>
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset: 0,
+			}
+		);
+		wow.init();
+	</script>
+</body>
+
+</html>

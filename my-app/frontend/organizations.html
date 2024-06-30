@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Dashboard</title>
+    <link rel="stylesheet" href="css/styleorgan.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Organization Dashboard</h1>
+        </header>
+        <main>
+            <section class="organization-stats">
+                <h2>Organization Stats</h2>
+                <form id="organization-form">
+                    <label for="org-wallet">Enter Your Wallet Address:</label>
+                    <input type="text" id="org-wallet" name="org-wallet" required>
+                    <button type="submit">Fetch Stats</button>
+                </form>
+                <div id="org-stats">
+                    <!-- Stats will be displayed here dynamically -->
+                </div>
+            </section>
+            <section class="organization-transactions">
+                <h2>Past Transactions</h2>
+                <ul id="org-transaction-list">
+                    <!-- Past transactions will be listed here dynamically -->
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Carbon Credit Marketplace</p>
+        </footer>
+    </div>
+    <script src="javascript/scriptorgan.js"></script>
+</body>
+</html>

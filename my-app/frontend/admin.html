@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/styleadmin.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Carbon Credit Marketplace</h1>
+        <div id="contractInteraction">
+            <h2>Contract Interaction</h2>
+            <button id="connectWallet">Connect Wallet</button>
+            <p id="walletStatus">Wallet not connected</p>
+            <hr>
+            <h3>Register Organization</h3>
+            <label for="orgAddress">Organization Address:</label><br>
+            <input type="text" id="orgAddress" placeholder="Enter organization address"><br>
+            <label for="orgName">Organization Name:</label><br>
+            <input type="text" id="orgName" placeholder="Enter organization name"><br>
+            <button id="registerOrg">Register Organization</button>
+            <hr>
+            <h3>Assign Carbon Credits</h3>
+            <label for="assignOrgAddress">Organization Address:</label><br>
+            <input type="text" id="assignOrgAddress" placeholder="Enter organization address"><br>
+            <label for="assignAmount">Amount:</label><br>
+            <input type="number" id="assignAmount" placeholder="Enter amount"><br>
+            <button id="assignCredits">Assign Carbon Credits</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="javascript/scriptadmin.js"></script>
+</body>
+</html>
