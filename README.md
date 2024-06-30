@@ -32,8 +32,8 @@ This project is a decentralized platform where companies can buy and sell carbon
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/carbon-credit-marketplace.git
-   cd carbon-credit-marketplace
+   git clone https://github.com/the0potato0coder/CarbonBaazar.git
+   cd CarbonBaazar
    ```
 
 2. Install the dependencies:
